@@ -36,61 +36,49 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   slideItems = [
     {
-      icon: 'iconsminds-mouse-3',
-      title: 'Right Click Menu',
+      icon: 'iconsminds-computer',
+      title: 'Aplicações Web',
       detail:
-        'Increases overall usability of the project by providing additional actions menu.',
+        'Aplicações personalizadas para as necessidades do seu negócio.',
     },
     {
-      icon: 'iconsminds-electric-guitar',
-      title: 'Video Player',
+      icon: 'iconsminds-smartphone-3',
+      title: 'Aplicações Mobile',
       detail:
-        'Carefully themed multimedia players powered by Video.js library with Youtube support.',
+        'Aplicativos personalizados para as plataformas Android e IOS.',
     },
     {
-      icon: 'iconsminds-keyboard',
-      title: 'Keyboard Shortcuts',
+      icon: 'iconsminds-monitor-analytics',
+      title: 'Ferramentas de Marketing',
       detail:
-        'Easily configurable keyboard shortcuts plugin that highly improves user experience.',
+        'Diversas ferramentas para auxiliar sua empresa com marketing digital.',
     },
     {
-      icon: 'iconsminds-three-arrow-fork ',
-      title: 'Two Panels Menu',
+      icon: 'iconsminds-optimization',
+      title: 'Ferramentas de Automatização',
       detail:
-        'Three states two panels icon menu that looks good, auto resizes and does the job well.',
+        'Automatizar a execução de suas aplicações para reduzir falhas e melhor desempenho.',
     },
     {
-      icon: 'iconsminds-deer',
-      title: 'Icons Mind',
+      icon: 'iconsminds-gamepad-2',
+      title: 'Desenvolvimento de Jogos/Gamificação',
       detail:
-        '1040 icons in 53 different categories, designed pixel perfect and ready for your project.',
+        'Para proporcionar melhor contato e experiencia ao seu cliente.',
     },
     {
-      icon: 'iconsminds-palette',
-      title: '20 Color Schemes',
+      icon: 'iconsminds-server-2',
+      title: 'Servidores Cloud',
       detail:
-        'Colors, icons and design harmony that creates excellent themes to cover entire project.',
-    },
-    {
-      icon: 'iconsminds-air-balloon-1',
-      title: '3 Applications',
-      detail:
-        'Applications that mostly made of components are the way to get started to create something similar.',
-    },
-    {
-      icon: 'iconsminds-resize',
-      title: 'Extra Responsive',
-      detail:
-        'Custom Bootstrap 4 xxs & xxl classes delivers better experiences for smaller and larger screens.',
-    },
+        'Nossos servidores executam suas aplicações em servidores Cloud para melhor desempenho e disponibilidade.',
+    }
   ];
 
   features = [
     {
-      title: 'Pleasant Design',
+      title: 'Design Agradável',
       img: '/assets/img/landing-page/features/pleasant-design.png',
       detail:
-        'As a web developer we enjoy to work on something looks nice. It is not an absolute necessity but it really motivates us that final product will look good for user point of view. <br /><br />So we put a lot of work into colors, icons, composition and design harmony. Themed components and layouts with same design language. <br /><br />We kept user experience principles always at the heart of the design process.',
+        'Como desenvolvedor web, gostamos de trabalhar em algo que pareça legal. Não é uma necessidade absoluta, mas realmente nos motiva que o produto final pareça bom para o ponto de vista do usuário. <br /><br />Por isso, trabalhamos muito com cores, ícones, composição e harmonia de design. Componentes temáticos e layouts com a mesma linguagem de design. <br /><br />Mantivemos os princípios de experiência do usuário sempre no centro do processo de design.',
     },
     {
       title: 'Extra Responsive',

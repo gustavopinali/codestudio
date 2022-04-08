@@ -6,7 +6,7 @@ import { UserRole } from '../app/shared/auth.roles';
 
 export const environment = {
   production: false,
-  buyUrl : 'https://1.envato.market/6NV1b',
+  buyUrl : 'mailto:gustavopinali@gmail.com',
   SCARF_ANALYTICS : false,
   adminRoot: '/app',
   apiUrl: 'https://api.coloredstrategies.com',

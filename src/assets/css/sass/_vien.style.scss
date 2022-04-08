@@ -2065,8 +2065,25 @@ a.btn-secondary:not([href]):not([tabindex]) {
 }
 
 .logo {
+    width: 110px;
+    height: 100px;
+    margin: -35px calc(0vw - 50px);
+    position: absolute;
+    fill: $theme-color-1;
+}
+
+.logo-mobile {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: -25px calc(0vw - 35px);
+  fill: $theme-color-1;
+}
+
+/*
+.logo {
   width: 110px;
-  height: 40px;
+  height: 60px;
   background: url($logo-path) no-repeat;
   background-position: center center;
   margin: 0 auto;
@@ -2075,14 +2092,18 @@ a.btn-secondary:not([href]):not([tabindex]) {
     width: 80px;
   }
 }
+*/
 
+/*
 .logo-mobile {
-  width: 20px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   background: url($logo-path-mobile) no-repeat;
   background-position: center center;
   background-size: contain;
+  fill: $primary-color;
 }
+*/
 
 //Menu Config Button
 #app-container {
@@ -9579,21 +9600,25 @@ footer.page-footer {
 
     .navbar-logo {
       width: 120px;
-      height: 40px;
+      height: 100%;
 
       .white {
         display: inline-block;
         width: 120px;
-        height: 40px;
+        height: 100%;
         background: url($lp-logo-path);
         background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
       }
 
       .dark {
         width: 120px;
-        height: 40px;
+        height: 100%;
         background: url($lp-logo-path-pinned);
         background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
         display: none;
       }
     }
